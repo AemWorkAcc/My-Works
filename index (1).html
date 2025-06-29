@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>دورة HTML و CSS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>دورة HTML و CSS</h1>
+      <nav>
+        <a href="#features">المحتوى</a>
+        <a href="#testimonials">آراء الطلاب</a>
+        <a href="#contact">تواصل معنا</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>ابدأ رحلتك في تصميم المواقع الآن!</h2>
+      <p>تعلم HTML و CSS من الصفر خلال 7 أيام فقط.</p>
+      <a href="#contact" class="btn">سجّل الآن</a>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="container">
+      <h3>ماذا ستتعلم؟</h3>
+      <ul>
+        <li>هيكلة صفحات الويب باستخدام HTML</li>
+        <li>تنسيق الصفحات بـ CSS</li>
+        <li>تصميم متجاوب للموبايل</li>
+        <li>إنشاء صفحة هبوط كاملة</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="container">
+      <h3>ماذا قال الطلاب؟</h3>
+      <div class="testimonial">
+        <p>"تعلمت الكثير في وقت قصير، أنصح بها بشدة!"</p>
+        <span>– سارة من الأردن</span>
+      </div>
+      <div class="testimonial">
+        <p>"شرح بسيط وتطبيقي، الدورة ممتازة للمبتدئين."</p>
+        <span>– أحمد من مصر</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-form">
+  <div class="container">
+    <h3>سجّل في الدورة</h3>
+    <form action="#" method="post">
+      <label for="name">الاسم الكامل:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">البريد الإلكتروني:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="course">اختر الدورة:</label>
+      <select id="course" name="course">
+        <option>أساسيات HTML و CSS</option>
+        <option>تصميم صفحات متجاوبة</option>
+        <option>برمجة واجهات المستخدم</option>
+      </select>
+
+      <label for="message">ملاحظاتك أو استفساراتك:</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit" class="btn">أرسل التسجيل</button>
+    </form>
+  </div>
+</section>
+
+
+  <footer id="contact">
+    <div class="container">
+      <p>تواصل معنا عبر البريد: <a href="mailto:learn@webcourse.com">learn@webcourse.com</a></p>
+      <p>&copy; 2025 دورة HTML و CSS</p>
+    </div>
+    
+  </footer>
+
+</body>
+</html>
